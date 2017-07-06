@@ -75,6 +75,5 @@ func handleMessages() {
                 delete(clients, client)
             }
         }
-
     }
 }
