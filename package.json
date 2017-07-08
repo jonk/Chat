@@ -4,8 +4,8 @@
   "description": "A chat application using a go and react",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open",
-    "test": "go run app/src/main.go"
+    "dev-react": "webpack-dev-server --open",
+    "deploy": "webpack && go run app/src/main.go"
   },
   "babel": {
     "presets": [
